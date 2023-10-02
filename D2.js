@@ -19,7 +19,7 @@ Queste risposte ci vengono date quando tramite il codice facciamo delle domande 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa. */
 
- let name = "alessandro";
+ const name = "alessandro";
 
  
  /*ESERCIZIO 3
@@ -41,21 +41,20 @@ Queste risposte ci vengono date quando tramite il codice facciamo delle domande 
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-let name = "alessandro";
+
 
 name = "gallina";
 
-const name = "alessandro";
 
-name = "gallina";
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let num4 = 4;
 
-console.log(num4 - x)
+
+console.log(4 - x)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -66,4 +65,6 @@ console.log(num4 - x)
 let name1 = "john"
 let name2 = "John"
 
-console.logo(name1 === name2)
+console.log(name1 !== name2);
+
+console.log(name1.toLowerCase() === name1.toLowerCase());
