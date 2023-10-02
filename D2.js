@@ -28,7 +28,7 @@ Queste risposte ci vengono date quando tramite il codice facciamo delle domande 
  let num1 = 12;
  let num2 = 20;
  let num3 = num1 + num2;
-console.log(num3)
+ console.log(num3)
 
  /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.*/
@@ -41,9 +41,9 @@ console.log(num3)
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-let name = "alessandro";;
+let name = "alessandro";
 
-name = "gallina";;
+name = "gallina";
 
 const name = "alessandro";
 
